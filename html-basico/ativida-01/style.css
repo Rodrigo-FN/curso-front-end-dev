@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+p {
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.txt1 {
+    background: rgb(62, 62, 167);
+    color: white;
+}
+
+.txt2 {
+    background-color: black;
+    color: white;
+}
