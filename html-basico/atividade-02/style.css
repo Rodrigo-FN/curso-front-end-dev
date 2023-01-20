@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: .5em;
+    color: white;
+}
+
+.tabela1__titulo {
+    background-color: #BB86FC;
+    padding: 10px;
+}
+
+.tabela2__titulo {
+    background-color: #00C4B4;
+}
+
+td {
+    background-color: #424250;
+    padding: 10px;
+}
+
