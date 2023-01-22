@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Anatomia do Input e Input text</title>
+</head>
+<body>
+    <h1>Anatomia do Input e Input text</h1>
+    
+    <form action="" autocomplete="on">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" required autocomplete="name">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="oi@yahoo.com" required autocomplete="email">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+
+    <hr>
+
+    <h2>Inputs Number, Password, Submit</h2>
+
+    <form action="" autocomplete="on">
+        <div>
+            <label for="num">Input Nuimber </label>
+            <input type="number" name="num" id="num">
+        </div>
+
+        <div>
+            <label for="pass">Input Password</label>
+            <input type="password" name="pass" id="pass" required minlength="8" maxlength="30" autocomplete="current-password">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+
+    <hr>
+
+    <h2>Inputs checkbox, radio</h2>
+
+    <form action="">
+        <div>
+            <p>Escolha uma ou mais frutas:</p>
+
+            <input type="checkbox" name="maca" id="maca" checked>
+            <label for="maca">Maçã</label>
+
+            <input type="checkbox" name="laranja" id="laranja">
+            <label for="laranja">Laranja</label>
+
+            <input type="checkbox" name="uva" id="uva">
+            <label for="uva">Uva</label>
+        </div>
+
+        <div class="radio">
+            <p>Escolha uma cor:</p>
+
+            <div>
+                <input type="radio" name="cor" id="amarelo" checked>
+                <label for="amarelo">Amarelo</label>
+            </div>
+
+            <div>
+                <input type="radio" name="cor" id="roxo">
+                <label for="roxo">Roxo</label>
+            </div>
+
+            <div>
+                <input type="radio" name="cor" id="verde">
+                <label for="verde">Verde</label>
+            </div>
+
+            <div>
+                <input type="radio" name="cor" id="vermelho">
+                <label for="vermelho">Vermelho</label>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

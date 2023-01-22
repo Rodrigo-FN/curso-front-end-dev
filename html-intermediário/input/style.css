@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
