@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Picture</title>
+</head>
+<body>
+    <h1>Tag Picture</h1>
+
+    <picture>
+        <source media="(min-width: 992px)" srcset="./img/desktop.jpg">
+        <source media="(min-width: 600px)" srcset="./img/tablet.jpg">
+        
+
+        <img src="./img/celular.jpg" alt="">
+    </picture>
+
+    &#129409;
+    &#x231A;
+
+    &circledR;
+    &cent;
+    &commat;
+
+    <h2>Tag audio (não recomendado)</h2>
+    <audio controls>
+
+        <source src="./audio/y2mate.com - AH SER CRUZEIRO É BOM DEMAIS_320kbps.ogg" type="audio/ogg">
+
+        <source src="./audio/y2mate.com - AH SER CRUZEIRO É BOM DEMAIS_320kbps.mp3" type="audio/mpeg">
+
+        <source src="./audio/y2mate.com - AH SER CRUZEIRO É BOM DEMAIS_320kbps.wav" type="audio/wav">
+
+        <p>Seu navegador não e compatível.</p>
+    </audio>
+
+    <h2>Tag video (não recomendado)</h2>
+    <video controls width="400px" loop poster="./img/celular.jpg">
+        <source src="./video/UH TERROR - -.mp4" type="video/mp4">
+        <source src="./video/UH TERROR - -.ogg" type="video/ogg">
+        <source src="./video/UH TERROR - -.webm" type="video/webm">
+    </video>
+
+    <h2>Vídeo do YouTube ou Vimeo com iframe (recomendado)</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lpEL1Nt6rJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>Teste de Iframe</h2>
+    <iframe src="./frame.html" frameborder="0" width="560" height="315"></iframe>
+</body>
+</html>
