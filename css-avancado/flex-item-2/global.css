@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.item {
+    background-color: rgb(195, 145, 241);
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+
+.flex-0 {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 0;
+}
+
+.flex-1 {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 100px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.item1 {
+    order: 2;
+}
+
+.item2 {
+    order: 4;
+}
+
+.item3 {
+    order: 1;
+}
+
+

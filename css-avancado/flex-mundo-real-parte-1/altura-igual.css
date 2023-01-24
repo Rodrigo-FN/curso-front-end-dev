@@ -1,0 +1,26 @@
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    width: 960px;
+    max-width: 100%;
+    gap: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.coluna {
+    display: flex;
+    flex-flow: column;
+    background: forestgreen;
+    flex: 0 1 250px;
+
+}
+
+.botao {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
