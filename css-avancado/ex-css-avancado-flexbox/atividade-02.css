@@ -1,0 +1,67 @@
+.pinturas {
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    margin: 1em 0;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1440px;
+    margin: 128px auto;
+    border: none;
+    
+
+}
+
+.container__item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: end;
+
+    width: 335px;
+    height: 431.03px;
+    margin-left: 20px;
+    padding: 0 0 42px 26px;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+cite {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+}
+
+.img1 {
+    background: url('./img/rome.jpg');
+}
+
+.img2 {
+    background: url('./img/boat.jpg');
+}
+
+.img3 {
+    background: url('./img/sand.jpg');
+}
+
+.img4 {
+    background: url('./img/starry.jpg');
+}
