@@ -1,9 +1,3 @@
-.pinturas {
-    display: flex;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: normal;
-}
-
 header {
     text-align: center;
     height: 100px;
@@ -13,6 +7,13 @@ header {
 h1 {
     margin-bottom: 1em;
 }
+
+.pinturas {
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+}
+
 
 .container {
     display: flex;
